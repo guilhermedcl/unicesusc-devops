@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const port = 3000
 
+let test
+
 app.get('/', (_req, res) => {
 	res.sendFile(__dirname + '/views/index.html')
 })
